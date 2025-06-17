@@ -28,7 +28,6 @@ def index_finding(a):
              
 plain_text=input("Enter your word : ").lower()
 plain_text=''.join(c for c in plain_text if c.isalpha())
-print(plain_text)
 #pairing
 new_plain=""
 i=0
